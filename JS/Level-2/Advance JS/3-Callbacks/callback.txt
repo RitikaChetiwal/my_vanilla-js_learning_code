@@ -1,0 +1,5 @@
+Issues with callback functions------------------------------------>
+1.problem with readability
+2.problem with maintenance
+3.makes a lengthy horizontal pyramid of doom
+4.inversion of control.

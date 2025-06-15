@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.outer{
+    background-color: green;
+    height: 500px;
+    /* width: 100vw; */
+    margin: 5px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.inner{
+    background-color: lightgreen;
+    height: 400px;
+    
+    
+
+
+}

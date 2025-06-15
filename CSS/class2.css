@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(5, 4, 4);
+    text-align: center;
+    position: fixed;  
+}
+
+li {
+    width: 180px;
+    height: 40px;
+    display: inline-block;
+    padding: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: large;
+    color: darkgrey;
+    text-align: center;
+
+}
+
+li:hover{
+    cursor: pointer;
+    font-weight: 800;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+li::after{
+    content: "😀";
+}
+
+button{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: rgb(86, 10, 10);
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 4px 10px;
+    border: 4px solid black;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 4px solid blue;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+/* pseudo selectors */
+
+a:link{
+    color: black;
+    background-color: pink;
+}
+
+/* a:active{
+    color: yellowgreen;
+    background-color: blue;
+}  */
+
+/* Note:pseudo selector link overwrited active. */
+
+a:hover{
+    color: aquamarine;
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+a:visited{
+    color: burlywood;
+    background-color: maroon;
+}
+
+/* pseudo elements */
+
+
+p::before{
+    content: "Note:";
+    color: red;
+    font-size: 20px;
+}
+
+p::after{
+    content: ":End";
+    color: rgb(207, 57, 207);
+    font-size: 20px;
+}
+
+p::first-line{
+    color: rgb(78, 218, 59);
+}
+
+.image{
+    height: 568px;
+    width: 345px;
+    margin-top: 5%;
+    margin-left: 40%;
+    opacity: 0.4;
+    
+
+}
+
+.ritika{
+    margin: 50px;
+    margin-left: 335px;
+    text-align: center;
+    font-size: 200px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    position:absolute;
+    font-family: "Protest Guerrilla", sans-serif;
+    background-image: url(https://images.pexels.com/photos/1136571/pexels-photo-1136571.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+
+}
+
+.ritika::after{
+    content: "";
+    height: 10px;
+    width: 0%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    transition: all ease 0.7s;
+}
+
+.ritika:hover::after{
+    cursor: pointer;
+    width: 100%;
+}
+

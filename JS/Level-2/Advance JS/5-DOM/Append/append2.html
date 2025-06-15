@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <!-- appended content -->
+    </div>
+
+    <script>
+        let div = document.querySelector('div')
+        let ul = document.createElement('ul')
+        ul.innerHTML = '<h1>Fruits<h1/>'
+            div.append(ul)
+        
+        let fruits = ['Apple','Mango','Banana','Cherry']
+
+        fruits.forEach((fruit) => {
+            let li = document.createElement('li')
+            li.innerText = fruit;
+            ul.appendChild(li)
+        })
+
+    </script>
+</body>
+</html>

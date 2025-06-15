@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <!-- for reference -->
+         <!-- append/appendChild and prepend -->
+    </div>
+
+<script>
+        const myDiv=document.querySelector('div')
+        // console.log(myDiv);
+
+        const heading1=document.createElement('h1') 
+        // console.log(heading1);
+
+        heading1.innerText='Ritika Chetiwal'
+        myDiv.append(heading1)
+        
+        // const bodyEle=document.querySelector('body')
+        // bodyEle.prepend(heading1)
+        
+        const myButton=document.createElement('button')
+        myButton.innerText='click'
+        myDiv.appendChild(myButton)
+
+        const myPara=document.createElement('p')
+        myPara.innerText='Hello Ritika Chetiwal'
+        myDiv.prepend(myPara)
+        
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

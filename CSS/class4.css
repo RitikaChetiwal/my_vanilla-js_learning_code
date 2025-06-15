@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.first{
+    background-color: lightpink;
+    color: red;
+}
+
+.second{
+    background-color: thistle;
+    color: cadetblue;
+}
+
+@media (500px<width<800px){
+   .first{
+    background-color: olive;
+    color: tan;
+   }
+
+   .second{
+    background-color: yellow;
+    color: blue;
+   }
+}
+
+@media screen and (max-width:500px) {
+    .first{
+        background-color: red;
+        color: aquamarine;
+    }
+
+    .second{
+        background-color: magenta;
+        color: yellowgreen;
+    }
+}
+/* 
+@media (orientation:portrait){
+
+}
+
+@media (orientation:landscape){
+
+} */

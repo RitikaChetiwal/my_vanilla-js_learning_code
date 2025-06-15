@@ -1,0 +1,72 @@
+
+
+1. Prime Number Check Write a function isPrime(n) that checks whether a given number n is prime. Return true if the number is prime, otherwise return false. 
+
+2. Fibonacci Sequence Write a function fibonacci(n) that returns the first n numbers in the Fibonacci sequence. Example: fibonacci(5) should return [0, 1, 1, 2, 3] 
+
+3. Factorial Calculation Write a function factorial(n) that returns the factorial of a given number n. Example: factorial(5) should return 120 factorial(0) should return 1 
+
+4. Reverse a Number Write a function reverseNumber(n) that takes a number n and returns the number with its digits reversed. Example: reverseNumber(12345) should return 54321 reverseNumber(987) should return 789 
+
+5. Sum of Even Numbers Write a function sumEvenNumbers(n) that returns the sum of all even numbers from 1 to n (inclusive). Example: sumEvenNumbers(10) should return 30 (because 2 + 4 + 6 + 8 + 10 = 30) 
+
+6. Right-Angled Triangle Pattern Write a function printTriangle(n) that prints a right-angled triangle pattern of stars (*) with n rows. Example for n = 4: 
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+
+7. Inverted Right-Angled Triangle Pattern Write a function printInvertedTriangle(n) that prints an inverted right-angled triangle pattern of stars (*) with n rows. Example for n = 4: 
+
+* * * * *
+* * * * 
+* * * 
+* * 
+* 
+
+8. Pyramid Pattern of Numbers Write a function printNumberPyramid(n) that prints a pyramid pattern using numbers. Example for n = 5: 
+1 
+121 
+12321 
+1234321 
+123454321 
+
+9. Diamond Pattern of Stars Write a function printDiamond(n) that prints a diamond pattern of stars (*). Example for n = 5: 
+       * 
+     * * * 
+   * * * * * 
+ * * * * * * * 
+* * * * * * * * 
+ * * * * * * * 
+   * * * * * 
+     * * * 
+       * 
+
+10. Merge Two Objects Write a function mergeObjects(obj1, obj2) that merges two objects. If there are overlapping keys, the values from the second object should overwrite the values from the first object. Example: 
+const obj1 = { 
+name: "Alice", 
+age: 25 }; 
+
+const obj2 = { 
+      age: 30, 
+      city: "New York"
+      }; 
+      mergeObjects(obj1, obj2); 
+     
+// Expected output: { 
+            name: "Alice", 
+            age: 30, 
+            city: "New York" } 
+
+
+11. Shallow Copy of an Object Write a function shallowCopy(obj) that performs a shallow copy of an object. Modifying the new object should not affect the original. Example: const original = { a: 1, b: 2 }; const copy = shallowCopy(original); copy.a = 3; console.log(original.a); // Expected output: 1 console.log(copy.a); // Expected output: 3 
+
+12. Remove Duplicates from Array Write a function removeDuplicates(arr) that removes duplicate elements from an array. Example: removeDuplicates([1, 2, 3, 1, 2, 4]); // Expected output: [1, 2, 3, 4] 
+
+13. Find Largest Element in an Array Write a function findLargest(arr) that finds and returns the largest number in an array. Example: findLargest([3, 5, 1, 8, 2]); // Expected output: 8 
+
+14. Sort an Array Without Using sort() Write a function sortArray(arr) that sorts an array of numbers in ascending order without using the built-in sort() method. Example: sortArray([5, 3, 8, 1, 2]); // Expected output: [1, 2, 3, 5, 8] 
+
+15. Palindrome Check Write a function isPalindrome(str) that checks whether a given string is a palindrome (reads the same forward and backward). Example: isPalindrome("madam"); // Expected output: true isPalindrome("hello"); // Expected output: false

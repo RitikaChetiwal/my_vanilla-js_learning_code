@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="id">Info:</label>
+    <textarea id="id" onkeyup="counter(event)"></textarea>
+
+    <script>
+        const txt=document.querySelector('textarea')
+        
+        const myParent=document.querySelector('body')
+        const myHeading=document.createElement('h1')
+        myParent.prepend(myHeading)
+        myHeading.innerText='Char Counter Application'
+        
+        var count;
+        const secondHeading=document.createElement('h2')
+        myParent.append(secondHeading)
+        
+        function counter(event){
+            count=event.target.value.length;  
+            secondHeading.innerText=count;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+
+// Advance js Module
+
+// Async js intro
+// working of sync and Async js code 
+// Map
+// Filter 
+// Reduce 
+// Callbacks 
+// issues with Callbacks
+// promises 
+// issues with promises          
+// Async Await 
+// Fetch axios
+// ***oops in js 
+
+// miscellaneous - polyfills, prototypal inheritance etc etc 
+
+
+// Dom js 
+

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    border: 6px solid red;
+    margin: 20px;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;  
+    margin: 4px;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.last{
+    flex-grow: 1;
+}
+
+
+

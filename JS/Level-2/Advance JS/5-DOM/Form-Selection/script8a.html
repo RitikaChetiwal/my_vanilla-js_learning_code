@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="" id="form1" name="form1">
+        <input type="text" placeholder="name1">
+        <input type="submit">
+    </form>
+    <br>
+    <form action="" id="form2" name="form2">
+
+        <input type="text" placeholder="name2">
+
+        <input type="submit">
+
+    </form>
+
+    <script>
+
+    let form1=document.getElementById("form1");
+    form1.addEventListener("submit",function(event){
+    event.preventDefault();
+    console.log("form1 submitted");
+})
+
+    let form2=document.querySelector("#form2")
+    form2.addEventListener("submit",function(event){
+    event.preventDefault();
+    console.log("form2 submitted")
+    // 1.
+        console.log(event);      // console.log(event) shows (submit) SubmitEvent.
+        // console.log(event.target);      
+        // or
+    // 2.  
+        // for(element of event.target){
+        //     console.log(element);
+        // }
+        // or
+    // 3.    
+        // console.log(document.forms);
+        // or
+    // 4.
+        // for(elm of document.forms){
+        //     console.log(elm);
+            
+        // }
+
+})
+
+let form=document.querySelector("#form2")
+    form.addEventListener("click",function(event){
+    event.preventDefault();
+    console.log("form2 submitted");
+    console.log(event);        // console.log(event) shows (click) PointerEvent.
+    
+    })
+    
+
+    </script>
+
+
+    
+</body>
+</html>

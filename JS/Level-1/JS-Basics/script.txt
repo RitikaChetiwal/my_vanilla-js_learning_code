@@ -1,0 +1,86 @@
+
+
+Date 20th sept , 2024
+
+Javascript 
+
+level 1 , level 2 , level 3
+
+level 1 
+
+1- no Technical terms 
+2- javascript - tools - use - code - choti choti problem solve 
+3- javascript - purani js bhul jao
+4- youtube , course - js (terms)
+
+
+level 1 - we will learn how to write code
+
+problem statement - use of code and solve 
+
+
+
+1- Js History , Set up
+2- run time env. 
+
+Javascript programming language - Maths + computation task , system se baat krskti 
+
+system - pc , mobile , atm machine - communication - english/hindi --- binary (0,1)
+
+
+english text document - system --translator -- 0 1 --- system 
+
+
+
+History 
+
+javascript - programming language -2+2=4
+- scripting language - ek aisi lang jo tumhari web p chal jaye  
+
+- js History?
+
+js - browser - 1995 -- netscape browser - js (ecma script)
+
+client - software . tool - netscape - browser 
+
+1996 - ie --- apni wali js -- js ie
+
+
+
+picture - org - ecma international - internet communication protocol (rules and regulation)
+
+
+
+2--> cross platform scrippting lang - ecmascript 
+
+ecma/js - 10-12 days 
+
+- bugs / loopholes (10 days)
+- js/ecmascript- backward lang 
+
+js - backward - purani kamiyo ko pura door nhi kia gya balki unki jagah new enchancements 
+
+-------------------------------------------------------------------------------------------------
+
+browser - chrome 
+
+picture -  run time env
+
+
+google - run time env - node js 
+
+
+---------------------------
+system - run time env
+
+---------------------------------------------------------------
+Level 1 - 
+programming language - 5 things.
+
+1- output 
+2- variables / memory management
+3- input
+then
+4- conditionals 
+5- repeat (loops)
+6-functions 

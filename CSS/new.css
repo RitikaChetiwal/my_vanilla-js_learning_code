@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 230, 61)
+}
+
+a {
+    width: 200px;
+    /* text-decoration: none; */
+    display: block;
+    height: 50px;
+    /* margin-top: 50px;; */
+}
+
+div {
+    height: 700px;
+    width: 300px;
+    background-color: pink;
+    overflow: scroll;
+}
+
+h1 {
+    font-family: "Playwrite CU", sans-serif;
+    font-weight: 400;
+    color: rgb(227, 26, 26);
+    text-decoration: underline;
+    background-color: bisque;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 60px;
+}
+
+.width {
+    height: 60px;
+    width: 100vw;
+    overflow: hidden;
+    background-color: red;
+
+}
+
+.max {
+    background-color: rgb(48, 29, 7);
+    width: 100vw;
+    max-width: 300px;
+    font-family: gilroy;
+    text-transform: capitalize;
+
+
+}
